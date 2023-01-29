@@ -1,0 +1,4 @@
+*.js linguist-generated
+*.ts linguist-generated
+*.wasm linguist-generated
+*.html linguist-generated

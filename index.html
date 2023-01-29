@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Monte Carlo Pi Simulation</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+        background-color: #000000;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      canvas {
+        background-color: white;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <script type="module">
+    import init from './out/monte_carlo_pi.js'
+    init()
+  </script>
+</html>
