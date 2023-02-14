@@ -2,6 +2,8 @@
 
 A [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method) Simulation built with Bevy + Rust that estimates Pi.
 
+Check it out [here](https://dbusteed.github.io/monte-carlo-pi)
+
 ## Approach
 
 Imagine I had a two containers. One is a circular red container with a radius of 3 feet (or whatever unit you'd like), the other is a yellow square container with a side length of 3 feet.
